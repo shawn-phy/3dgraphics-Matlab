@@ -26,8 +26,8 @@ def convert_obj_to_rows(obj_file):
     
     return rows
 
-# Example usage
-obj_file = 'path/to/your/model.obj'
+
+obj_file = 'cat.obj'
 rows = convert_obj_to_rows(obj_file)
 
 with open('model.txt', 'w') as f:
